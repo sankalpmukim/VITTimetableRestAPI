@@ -1,3 +1,449 @@
+
+VIT (Vellore Campus)  
+
+    User Image 20BDS0128(STUDENT)
+
+Time Table
+Semester  
+* Only Registered Semester
+Note:
+
+    Students are required to generate the invoice and then proceed to pay the required course fee. Registration is confirmed only if status of the course is 'Registered and Approved' (in regular cases) or 'Registered, Invoice Generated, Fees Paid and Approved' (when there is a requirement for course fee payment).
+    Re-registration fee last payment date is 28-02-2021.
+
+
+Sl.No 	Class Group 	Course 	L T P J C 	Category 	Course Option 	Class Nbr		Slot -
+Venue 	Faculty Details 	Registered / Updated Date & Time 	Attendance Date - Type 	Status & Ref No
+
+1
+	
+
+UG Freshers
+	
+
+CHY1701 - Engineering Chemistry
+
+( Embedded Theory )
+	
+
+3 0 0 0 3
+	University Core 	
+
+Regular
+	
+
+VL2020210507137
+	
+
+E2+TE2 -
+
+SJT315
+	
+
+BADAL KUMAR MANDAL -
+
+SAS
+	
+
+20-Feb-2021 10:08
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+2
+	
+
+UG Freshers
+	
+
+CHY1701 - Engineering Chemistry
+
+( Embedded Lab )
+	
+
+0 0 2 0 1
+	University Core 	
+
+Regular
+	
+
+VL2020210507188
+	
+
+L5+L6 -
+
+SMVG027
+	
+
+ASHOK KUMAR S.K -
+
+SAS
+	
+
+20-Feb-2021 10:08
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+3
+	
+
+UG Freshers
+	
+
+CSE1002 - Problem Solving and Object Oriented Programming
+
+( Lab Only )
+	
+
+0 0 6 0 3
+	University Core 	
+
+Regular
+	
+
+VL2020210506602
+	
+
+L1+L2+L21+L22+L29+L30 -
+
+SJT416
+	
+
+SUGANYA P -
+
+SITE
+	
+
+20-Feb-2021 10:06
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+4
+	
+
+UG Freshers
+	
+
+CSE1003 - Digital Logic and Design
+
+( Embedded Theory )
+	
+
+3 0 0 0 3
+	Programme Core 	
+
+Regular
+	
+
+VL2020210506535
+	
+
+B2+TB2 -
+
+SJT305
+	
+
+AVINASH CHANDRA -
+
+SENSE
+	
+
+20-Feb-2021 10:07
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+5
+	
+
+UG Freshers
+	
+
+CSE1003 - Digital Logic and Design
+
+( Embedded Lab )
+	
+
+0 0 2 0 1
+	Programme Core 	
+
+Regular
+	
+
+VL2020210506537
+	
+
+L11+L12 -
+
+SJT316
+	
+
+AVINASH CHANDRA -
+
+SENSE
+	
+
+20-Feb-2021 10:07
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+6
+	
+
+UG Freshers
+	
+
+CSE2011 - Data Structures and Algorithms
+
+( Embedded Theory )
+	
+
+3 0 0 0 3
+	Programme Core 	
+
+Regular
+	
+
+VL2020210507473
+	
+
+A2+TA2 -
+
+SJT415
+	
+
+SHALINI L -
+
+SCOPE
+	
+
+20-Feb-2021 10:03
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+7
+	
+
+UG Freshers
+	
+
+CSE2011 - Data Structures and Algorithms
+
+( Embedded Lab )
+	
+
+0 0 2 0 1
+	Programme Core 	
+
+Regular
+	
+
+VL2020210507474
+	
+
+L23+L24 -
+
+MGB107 A
+	
+
+SHALINI L -
+
+SCOPE
+	
+
+20-Feb-2021 10:03
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+8
+	
+
+UG Freshers
+	
+
+MAT1014 - Discrete Mathematics and Graph Theory
+
+( Theory Only )
+	
+
+3 2 0 0 4
+	Programme Core 	
+
+Regular
+	
+
+VL2020210505924
+	
+
+C2+TC2+TCC2+V5 -
+
+SJT311
+	
+
+RAJESH BHATT -
+
+SAS
+	
+
+20-Feb-2021 10:04
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+9
+	
+
+UG Freshers
+	
+
+MAT2001 - Statistics for Engineers
+
+( Embedded Theory )
+	
+
+3 0 0 0 3
+	University Core 	
+
+Regular
+	
+
+VL2020210505855
+	
+
+G2+TG2 -
+
+SJT421
+	
+
+ROY.S -
+
+SAS
+	
+
+20-Feb-2021 10:05
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+10
+	
+
+UG Freshers
+	
+
+MAT2001 - Statistics for Engineers
+
+( Embedded Lab )
+	
+
+0 0 2 0 1
+	University Core 	
+
+Regular
+	
+
+VL2020210506601
+	
+
+L13+L14 -
+
+SJT119
+	
+
+ROY.S -
+
+SAS
+	
+
+20-Feb-2021 10:05
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+
+11
+	
+
+UG Freshers
+	
+
+STS1202 - Introduction to Quantitative, Logical and Verbal Ability
+
+( Soft Skill )
+	
+
+0 0 0 0 1
+	University Core (GENERAL Basket) 	
+
+Regular
+	
+
+VL2020210505805
+	
+
+F2+TF2 -
+
+SJT324
+	
+
+SMART (APT) -
+
+SSL
+	
+
+20-Feb-2021 10:01
+	
+
+21-Feb-2021
+- Manual
+	
+
+Registered and Approved
+Total Number Of Credits: 24
 Theory 	Start 	08:00 	09:00 	10:00 	11:00 	12:00 	- 	Lunch 	14:00 	15:00 	16:00 	17:00 	18:00 	18:46 	19:01
 End 	08:45 	09:45 	10:45 	11:45 	12:45 	- 	Lunch 	14:45 	15:45 	16:45 	17:45 	18:45 	19:00 	19:45
 Lab 	Start 	08:00 	08:46 	10:00 	10:46 	11:31 	12:16 	Lunch 	14:00 	14:46 	16:00 	16:46 	17:31 	18:16 	-
