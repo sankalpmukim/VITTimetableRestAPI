@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from calendarGenerator import generate_calendar
 
 app = Flask(__name__)
 
@@ -15,7 +16,7 @@ def json():
         return jsonify({"RESPONSE": "GET method used. use POST(JSON)"})
     elif request.method == 'POST':
         data = request.get_json()
-        return jsonify(data)
+        return jsonify(generate_calendar(data['timetable']))
     else:
         return "INVALID REQUEST"
 
