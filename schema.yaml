@@ -1,0 +1,47 @@
+openapi: 3.0.0
+info:
+    version: 1.0.0
+    description: API to obtain Calendar files from VIT timetable website data
+    title: VIT Calendar API
+    contact:
+        name: Sankalp Mukim
+        url: github.com/sankalpmukim
+        email: sankalpmukim@gmail.com
+servers:
+-   url: https://vitcalapi.herokuapp.com/
+    description: Simple FLASK application
+paths:
+    /vellore:
+        post:
+            summary: 'Returns exact contents writeable to a .ics file for vellore'
+            tags:
+                - json
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/Input'
+            responses:
+                '200':
+                    description: 'timetable object returned succesfully'
+                    content:
+                        application/json:
+                            schema:
+                                $ref: '#/components/schemas/Output'
+
+components:
+  schemas:
+    Output:
+        type: object
+        properties:
+            timetable:
+                type: string
+            reg_no:
+                type: string
+    Input:
+        type: object
+        properties:
+            timetable:
+                type: string
+        required:
+            - timetable
