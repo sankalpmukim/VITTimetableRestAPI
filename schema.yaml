@@ -8,7 +8,7 @@ info:
         url: github.com/sankalpmukim
         email: sankalpmukim@gmail.com
 servers:
--   url: https://vitcalapi.herokuapp.com/
+-   url: https://vitcalapi.herokuapp.com
     description: Simple FLASK application
 paths:
     /vellore:
