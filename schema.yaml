@@ -11,7 +11,7 @@ servers:
 -   url: https://vitcalapi.herokuapp.com/
     description: Simple FLASK application
 paths:
-    vellore:
+    /vellore:
         post:
             summary: 'Returns exact contents writeable to a .ics file for vellore'
             description: >
