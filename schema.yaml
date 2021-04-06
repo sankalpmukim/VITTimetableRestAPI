@@ -30,18 +30,18 @@ paths:
                                 $ref: '#/components/schemas/Output'
 
 components:
-  schemas:
-    Output:
-        type: object
-        properties:
-            calendar:
-                type: string
-            reg_no:
-                type: string
-    Input:
-        type: object
-        properties:
-            timetable:
-                type: string
-        required:
-            - timetable
+    schemas:
+        Output:
+            type: object
+            properties:
+                calendar:
+                    type: string
+                reg_no:
+                    type: string
+        Input:
+            type: object
+            properties:
+                timetable:
+                    type: string
+            required:
+                - timetable
