@@ -9,8 +9,8 @@ def index():
     return "Welcome to main home page"
 
 
-@app.route('/json', methods=['GET', 'POST'])
-def json():
+@app.route('/vellore', methods=['GET', 'POST'])
+def vellore():
     if request.method == 'GET':
         print("GET")
         return jsonify({"RESPONSE": "GET method used. use POST(JSON)"})
