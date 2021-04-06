@@ -4,22 +4,22 @@ from calendarGenerator import generate_calendar
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def index():
     return "Welcome to main home page"
 
 
-@app.route('/vellore', methods=['GET', 'POST'])
+@app.route("/vellore", methods=["GET", "POST"])
 def vellore():
-    if request.method == 'GET':
+    if request.method == "GET":
         print("GET")
         return jsonify({"RESPONSE": "GET method used. use POST(JSON)"})
-    elif request.method == 'POST':
+    elif request.method == "POST":
         data = request.get_json()
-        return jsonify(generate_calendar(data['timetable']))
+        return jsonify(generate_calendar(data["timetable"]))
     else:
         return "INVALID REQUEST"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
