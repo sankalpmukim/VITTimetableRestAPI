@@ -14,6 +14,9 @@ paths:
     /vellore:
         post:
             summary: 'Returns exact contents writeable to a .ics file for vellore'
+            description: >
+                Obtain the data of full page of VTOP(Vellore Campus) timetable page
+                Make sure the new lines are separated be \r\n Only
             tags:
                 - json
             requestBody:
