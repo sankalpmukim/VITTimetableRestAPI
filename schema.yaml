@@ -34,7 +34,7 @@ components:
     Output:
         type: object
         properties:
-            timetable:
+            calendar:
                 type: string
             reg_no:
                 type: string
