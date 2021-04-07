@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, redirect, request
 from calendarGenerator import generate_calendar
 
 app = Flask(__name__)
@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Welcome to main home page"
+    return redirect("https://documenter.getpostman.com/view/15245880/TzCS6S6S", code=302)
 
 
 @app.route("/vellore", methods=["GET", "POST"])
