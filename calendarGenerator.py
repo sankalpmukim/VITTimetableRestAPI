@@ -1,10 +1,11 @@
 from icalendar import Calendar, Event
 from datetime import datetime, timedelta
+from typing import Tuple
 import json
 import os
 
 
-def get_relevant_data(strng: str):
+def get_relevant_data(strng: str) -> Tuple[list, str]:
     def connect_these(lst):
         strnges = []
         for i in lst:
@@ -26,7 +27,7 @@ def get_relevant_data(strng: str):
 
 def build_event_duration(
     summary, description, start, duration, location, freq_of_recurrence, until
-):
+) -> Event:
     """
     Return an event that can be added to a calendar
 
@@ -52,7 +53,7 @@ def build_event_duration(
     return event
 
 
-def generate_calendar(whole_site_data: str):
+def generate_calendar(whole_site_data: str) -> dict:
     relevantData, reg_no = get_relevant_data(whole_site_data)
     cal = Calendar()
     cal.add("version", "4.0.7")
