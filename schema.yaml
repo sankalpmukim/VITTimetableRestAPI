@@ -25,7 +25,7 @@ paths:
                         schema:
                             $ref: '#/components/schemas/Input'
                         example:
-                            timetable: "\r\n\'\r\n"
+                            timetable: "\r\n''\r\n"
             responses:
                 '200':
                     description: 'timetable object returned succesfully'
