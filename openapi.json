@@ -12,8 +12,8 @@
     },
     "servers": [
         {
-            "url": "https://vitcalapi.tech",
-            "description": "Simple FLASK application"
+            "url": "https://vitcalapi.herokuapp.com",
+            "description": "Simple Flask application"
         }
     ],
     "paths": {
