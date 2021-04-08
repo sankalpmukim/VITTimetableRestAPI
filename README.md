@@ -1,7 +1,7 @@
 # VIT Calendar API
  A simple Flask based REST API to generate json containing timetable calendar data
 
-Find official API user instructions [here](https://documenter.getpostman.com/view/15245880/TzCS6S6S)
+Find official API user instructions [here](https://documenter.getpostman.com/view/15245880/TzCTZk7J)
 
 ## How its built?
  - The app runs on a very basic instance of the [Flask](https://flask.palletsprojects.com/en/1.1.x/) web framework.
