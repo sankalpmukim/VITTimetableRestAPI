@@ -12,7 +12,7 @@
     },
     "servers": [
         {
-            "url": "https://vitcalapi.herokuapp.com",
+            "url": "https://vitcalapi.tech",
             "description": "Simple FLASK application"
         }
     ],
