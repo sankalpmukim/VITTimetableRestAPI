@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return redirect("https://documenter.getpostman.com/view/15245880/TzCS6S6S", code=302)
+    return redirect("https://documenter.getpostman.com/view/15245880/TzCTZk7J", code=302)
 
 
 @app.route("/vellore", methods=["GET", "POST"])

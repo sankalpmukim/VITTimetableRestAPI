@@ -12,7 +12,7 @@
     },
     "servers": [
         {
-            "url": "https://vitcalapi.herokuapp.com",
+            "url": "vitcalapi.tech",
             "description": "Simple Flask application"
         }
     ],
