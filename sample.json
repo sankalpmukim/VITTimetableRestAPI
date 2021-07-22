@@ -1,0 +1,22 @@
+{
+    "courses": [
+      {
+        "slots": "A1+TA1",
+        "course_type": "Embedded Theory",
+        "course_name": "abcd",
+        "course_code": "efgh",
+        "location": "SJT123(room number)",
+        "teacher_name": "Teacher name"
+      },
+      {
+        "slots": "L1+L2",
+        "course_type": "Embedded Lab",
+        "course_name": "abcd",
+        "course_code": "efgh",
+        "location": "SJT123(room number)",
+        "teacher_name": "Teacher name"
+      }
+    ],
+    "regno": "56BCE1234",
+    "semnumber": "3"
+  }
