@@ -1,28 +1,9 @@
 from icalendar import Calendar, Event
+import os
 from datetime import datetime, timedelta
 from typing import Tuple
 import json
 import os
-
-
-def get_relevant_data(strng: str) -> Tuple[list, str]:
-    def connect_these(lst):
-        strnges = []
-        for i in lst:
-            strnges.append(i)
-        return strnges
-
-    allTheFriggingLines = strng.split("\r\n")
-    startIndex = allTheFriggingLines.index("1")
-    endIndex = -19
-    length = len(allTheFriggingLines)
-    relevantData = [
-        connect_these(allTheFriggingLines[i : i + 39])
-        for i in range(startIndex, length - endIndex, 39)
-    ][:-2]
-    # for i in relevantData:
-    #     print(i)
-    return relevantData[:], allTheFriggingLines[3][15:24]
 
 
 def build_event_duration(
@@ -52,27 +33,25 @@ def build_event_duration(
 
     return event
 
-
-def generate_calendar(whole_site_data: str) -> dict:
-    relevantData, reg_no = get_relevant_data(whole_site_data)
+def generate_calendar(request:dict) -> dict:
     cal = Calendar()
     cal.add("version", "4.0.7")
     cal.add("x-wr-timezone", "Asia/Kolkata")
-    cal.add("x-wr-calname", reg_no)
+    cal.add("x-wr-calname", request["regno"])
     slotfile = open("./slotinfofile.json", "r")
     slotinfo = json.load(slotfile)
-    print(reg_no)
-    for course in relevantData:
-        summary = course[6].split("-")[0][:-1] + course[6]
-        description = course[6].split("-")[1][1:]
-        slots = course[20][:-2].split("+")
+    for course in request["courses"]:
+        summary = f'{course["course_code"]}({course["course_type"]})'
+        description = course["course_name"]
+        slots = course["slots"].split('+')
         year = 2021
-        month = 2
+        month = 8
         duration = timedelta(minutes=45)
-        until = datetime(2021, 6, 19)
-        location = course[-17] + " (" + course[-14][:-2] + ")"
+        until = datetime(2021, 12, 13)
+        location = f'{course["location"]}({course["teacher_name"]})'
         for slot in slots:
             for clas in slotinfo[slot]:
+                clas[1]-=20
                 event = build_event_duration(
                     summary,
                     description,
@@ -85,5 +64,15 @@ def generate_calendar(whole_site_data: str) -> dict:
                 if not ("roject" in summary):
                     cal.add_component(event)
     print("calendar generation complete")
-    output = {"calendar": cal.to_ical().decode("UTF-8"), "reg_no": reg_no}
+    # output = {"calendar": cal.to_ical().decode("UTF-8"), "reg_no": reg_no}
+    filename = './icsfiles/'+request["regno"]+'_'+request["semnumber"]+'.ics'
+    if os.path.exists(filename):
+        os.remove(filename)
+    with open(filename,'wb') as ics:
+        ics.write(cal.to_ical())
+    print(f'{filename} succesfully generated')
+    output = {
+        "filename":filename,
+        "link":("vitcalapi.tech"+filename[1:-4]).replace('icsfiles','download')
+    }
     return output
